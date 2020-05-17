@@ -3,3 +3,6 @@ run:
 
 bundle:
 	deno bundle main.ts --allow-net
+
+create-config:
+	cp config/config.json config/local.config.json
