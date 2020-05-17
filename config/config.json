@@ -1,0 +1,10 @@
+{
+  "name": "Deno Test Playground",
+  "database": {
+    "hostname": "DENO_DB_HOST",
+    "user": "DENO_DB_USER",
+    "password": "DENO_DB_PASSWORD",
+    "database": "DENO_DB",
+    "port": 5432
+  }
+}
