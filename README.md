@@ -10,7 +10,7 @@ This is just to play around with [Deno](https://deno.land/)
 To get started with this sample application
 * Make sure you have postgres running
 * You can use `Makefile` tasks to run the application (_this needs `make` pre-installed_)
-* Copy default config, run `make create-config` (_this will create a local.config.json in the config directory_) 
+* Copy default config, run `make create-config` (_this will create a `local.config.json` in the config directory_) 
 * Update the local config options accordingly
 * Run the application using `make run`
 * Navigate to `http://localhost:3000` in your browser
