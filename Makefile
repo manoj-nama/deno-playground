@@ -1,5 +1,5 @@
 run:
-	deno run --allow-net main.ts
+	deno run --allow-net --allow-read --unstable oak-server.ts
 
 bundle:
 	deno bundle main.ts --allow-net
