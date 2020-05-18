@@ -1,4 +1,4 @@
-import { Client } from "https://deno.land/x/postgres/mod.ts";
+import { Client } from "https://deno.land/x/postgres@v0.4.0/mod.ts";
 import config from "./config.ts";
 
 export const query = async (dbQuery: string, args: any = []) => {
